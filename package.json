@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "vkparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "jest": "^27.4.7",
+    "jsdom": "^19.0.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
